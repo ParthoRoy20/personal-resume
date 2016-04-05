@@ -30,7 +30,7 @@ $('.menu-ico').on('click', function() {
 	if( $(this).hasClass('change') ) {
 		$(this).removeClass('change');		
 		$('.profile').addClass('no-see');
-		$('.menu-one').addClass('no-menu');
+		$('.menu-one').addClass('no-see');
 		$('.bgimg-l').addClass('no-see');
 		$('.bgimg-m').removeClass('no-see');
 		$('.bdy').removeClass('slide');
@@ -49,7 +49,7 @@ $('.menu-ico').on('click', function() {
 	}
 	 else {
 		$('.profile').removeClass('no-see');
-		$('.menu-one').removeClass('no-menu');
+		$('.menu-one').removeClass('no-see');
 		$('.bgimg-l').removeClass('no-see');
 		$('.bgimg-m').addClass('no-see');
 		$('.bdy').addClass('slide');
